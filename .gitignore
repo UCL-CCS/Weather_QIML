@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+
+# local experiment artefacts — do not commit
+cache/
+checkpoints/
+results/
+plots/
+*.pt
+*.pth
+*.npy
+*.npz
+*.nc
+*.png
+!weather/qprior/.gitkeep
